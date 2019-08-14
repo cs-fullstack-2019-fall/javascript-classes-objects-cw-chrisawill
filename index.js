@@ -46,7 +46,7 @@ class movie
         this.rating = rating;
         this.yearReleased = yearReleased;
     }
-
+// PARTIAL CREDIT : CREATE TWO METHODS TO UPDATE THE RATING AND YEAR
     veiwing()
     {
         console.log(this.movieName);
@@ -87,7 +87,7 @@ class Person
 
     BMI()
     {
-        diet.BMI = ((diet.weight*(diet.weight/diet.height))             *703);
+        diet.BMI = ((diet.weight*(diet.weight/diet.height))*703);
         console.log(diet.BMI);
 
     }
